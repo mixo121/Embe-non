@@ -106,4 +106,4 @@ module.exports = {
 				return message.reply(getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)));
 			};
 	}
-}; .
+}; 
