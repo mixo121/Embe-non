@@ -36,7 +36,7 @@ module.exports = {
 			confirmThisThread: "Vui lòng thả cảm xúc bất kỳ vào tin nhắn này để xác nhận thay đổi prefix trong nhóm chat của bạn",
 			successGlobal: "Đã thay đổi prefix hệ thống bot thành: %1",
 			successThisThread: "Đã thay đổi prefix trong nhóm chat của bạn thành: %1",
-			myPrefix: "🌐 Prefix của hệ thống: %1\n🛸 Prefix của nhóm bạn: %2"
+			myPrefix: "🌐 Prefix của hệ thống: %1\n🛸 Pcủa nhóm bạn: %2"
 		},
 		en: {
 			reset: "Your prefix has been reset to default: %1",
@@ -45,7 +45,13 @@ module.exports = {
 			confirmThisThread: "Please react to this message to confirm change prefix in your box chat",
 			successGlobal: "Changed prefix of system bot to: %1",
 			successThisThread: "Changed prefix in your box chat to: %1",
-			myPrefix: "🌐 System prefix: %1\n🛸 Your box chat prefix: %2"
+			myPrefix: "     ╔══════════════════════════╗\nᏦᏬᏒᏬᎷᎥ\n╚══════════════════════════╝\n ╭──────────────────────❍\n𝗬𝗢, 𝗠𝗬 𝗣𝗥𝗘𝗙𝗜𝗫 𝗜𝗦: 『  %1  』\n 𝗚𝗥𝗢𝗨𝗣𝗘 𝗣𝗥𝗘𝗙𝗜𝗫 𝗜𝗦 : 『  %2 』\n 𝗦𝗢𝗠𝗘 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗧𝗛𝗔𝗧 𝗠𝗔𝗬 𝗛𝗘𝗟𝗣 𝗬𝗢𝗨 \n ➥ ✓𝖍𝖊𝖑𝖕 [number of page] -> see commands \n➥ ✓BBY [message] -> talk to bot\n➥ ✓𝖈𝖆𝖑𝖑𝖊𝖉 [message] -> report any problem encountered \n ➥ ✓help [command] -> information and usage of command \n\n𝗛𝗔𝗩𝗘 𝗙𝗨𝗡 𝗨𝗦𝗜𝗡𝗚 𝗜𝗧 𝗘𝗡𝗝𝗢𝗬!🐱\n𝗕𝗢𝗧 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥:𝕽𝖆𝖎𝖍𝖆𝖓\n╰──────────────────────𒁍
+		
+		
+		
+		
+		
+		
 		}
 	},
 
@@ -100,4 +106,4 @@ module.exports = {
 				return message.reply(getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)));
 			};
 	}
-};
+}; .
