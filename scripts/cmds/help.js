@@ -60,7 +60,7 @@ module.exports = {
       msg += `\n𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆, 𝘁𝗵𝗲 𝗯𝗼𝘁 𝗵𝗮𝘀 ${totalCommands} 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝘁𝗵𝗮𝘁 𝗰𝗮𝗻 𝗯𝗲 𝘂𝘀𝗲𝗱\n`;
       msg += `𝗧𝘆𝗽𝗲 ${prefix}𝗵𝗲𝗹𝗽 𝗰𝗺𝗱𝗡𝗮𝗺𝗲 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱`;
 
-      const helpListImages = ["https://cdn.discordapp.com/attachments/1342902099331121194/1355714208574079057/24883034-2b75-4fba-84bf-1deadec4d3a3.jpeg?ex=67ef34bf&is=67ede33f&hm=4051c54a8963bfef7dc985c71715198f95912f72fdf5688157d9decb34ff0861&"];
+      const helpListImages = ["https://cdn.discordapp.com/attachments/1342902099331121194/1350775400212463657/THE_SHUTDOWN_Camille_Unknown.gif?ex=67f1ac5f&is=67f05adf&hm=32a559608a79d581267a273f2fe12ab82013fbd71f50c6e52b691e881513578d&"];
       const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
 
       await message.reply({
@@ -119,4 +119,4 @@ function roleTextToString(roleText) {
     default:
       return "Unknown role";
   }
-  }
+            }
